@@ -12,10 +12,10 @@ import { User } from 'src/entities/user.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'ep-still-wind-44047708.us-east-2.aws.neon.tech',
-      port: 5432,
-      username: 'abjerry97',
-      password: 'fo5uIkT4VQLi',
+      host:'',
+      port: ,
+      username: '',
+      password: '',
       database: 'company_record',
       entities: [ Company,User/* Add other entities from ProductsModule here */],
       synchronize: true,
